@@ -12,6 +12,11 @@ public class Basics {
 
 	public static void main(String[] args)  
 	{
+		
+		System.out.println("Git Demo Line one ");
+		System.out.println("Git Demo Line two ");
+		System.out.println("Git Demo Line three ");
+		
 		RestAssured.baseURI="https://rahulshettyacademy.com";
 		
 		String response1=given().log().all().queryParam("key","qaclick123")
